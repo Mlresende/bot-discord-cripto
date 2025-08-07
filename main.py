@@ -4,7 +4,7 @@ import nest_asyncio
 import asyncio
 import os
 
-TOKEN = os.getenv(API_TOKEN)  # Substitua pelo novo token seguro
+TOKEN = os.getenv(API_TOKEN)
 CHANNEL_ID = 1402797286869831710
 
 nest_asyncio.apply()
